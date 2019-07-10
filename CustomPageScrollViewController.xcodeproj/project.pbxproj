@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A7FB90622D5915100ECD6BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7FB90522D5915100ECD6BA /* AppDelegate.swift */; };
+		9A7FB90B22D5915100ECD6BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7FB90922D5915100ECD6BA /* Main.storyboard */; };
+		9A7FB90D22D5915200ECD6BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A7FB90C22D5915200ECD6BA /* Assets.xcassets */; };
+		9A7FB91022D5915200ECD6BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7FB90E22D5915200ECD6BA /* LaunchScreen.storyboard */; };
+		9A7FB91822D5918700ECD6BA /* ZLPageControlHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7FB91722D5918700ECD6BA /* ZLPageControlHeader.swift */; };
+		9A7FB91B22D5918E00ECD6BA /* ZLDepositTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7FB91922D5918E00ECD6BA /* ZLDepositTableViewController.swift */; };
+		9A7FB91C22D5918E00ECD6BA /* ZLMyDepositViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7FB91A22D5918E00ECD6BA /* ZLMyDepositViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A7FB90222D5915100ECD6BA /* CustomPageScrollViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomPageScrollViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7FB90522D5915100ECD6BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A7FB90A22D5915100ECD6BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A7FB90C22D5915200ECD6BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A7FB90F22D5915200ECD6BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A7FB91122D5915200ECD6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A7FB91722D5918700ECD6BA /* ZLPageControlHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLPageControlHeader.swift; sourceTree = "<group>"; };
+		9A7FB91922D5918E00ECD6BA /* ZLDepositTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLDepositTableViewController.swift; sourceTree = "<group>"; };
+		9A7FB91A22D5918E00ECD6BA /* ZLMyDepositViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLMyDepositViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A7FB8FF22D5915100ECD6BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A7FB8F922D5915100ECD6BA = {
+			isa = PBXGroup;
+			children = (
+				9A7FB90422D5915100ECD6BA /* CustomPageScrollViewController */,
+				9A7FB90322D5915100ECD6BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A7FB90322D5915100ECD6BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A7FB90222D5915100ECD6BA /* CustomPageScrollViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A7FB90422D5915100ECD6BA /* CustomPageScrollViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9A7FB91922D5918E00ECD6BA /* ZLDepositTableViewController.swift */,
+				9A7FB91A22D5918E00ECD6BA /* ZLMyDepositViewController.swift */,
+				9A7FB91722D5918700ECD6BA /* ZLPageControlHeader.swift */,
+				9A7FB90522D5915100ECD6BA /* AppDelegate.swift */,
+				9A7FB90922D5915100ECD6BA /* Main.storyboard */,
+				9A7FB90C22D5915200ECD6BA /* Assets.xcassets */,
+				9A7FB90E22D5915200ECD6BA /* LaunchScreen.storyboard */,
+				9A7FB91122D5915200ECD6BA /* Info.plist */,
+			);
+			path = CustomPageScrollViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A7FB90122D5915100ECD6BA /* CustomPageScrollViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A7FB91422D5915200ECD6BA /* Build configuration list for PBXNativeTarget "CustomPageScrollViewController" */;
+			buildPhases = (
+				9A7FB8FE22D5915100ECD6BA /* Sources */,
+				9A7FB8FF22D5915100ECD6BA /* Frameworks */,
+				9A7FB90022D5915100ECD6BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomPageScrollViewController;
+			productName = CustomPageScrollViewController;
+			productReference = 9A7FB90222D5915100ECD6BA /* CustomPageScrollViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A7FB8FA22D5915100ECD6BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = MacMini;
+				TargetAttributes = {
+					9A7FB90122D5915100ECD6BA = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 9A7FB8FD22D5915100ECD6BA /* Build configuration list for PBXProject "CustomPageScrollViewController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A7FB8F922D5915100ECD6BA;
+			productRefGroup = 9A7FB90322D5915100ECD6BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A7FB90122D5915100ECD6BA /* CustomPageScrollViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A7FB90022D5915100ECD6BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7FB91022D5915200ECD6BA /* LaunchScreen.storyboard in Resources */,
+				9A7FB90D22D5915200ECD6BA /* Assets.xcassets in Resources */,
+				9A7FB90B22D5915100ECD6BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A7FB8FE22D5915100ECD6BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7FB91C22D5918E00ECD6BA /* ZLMyDepositViewController.swift in Sources */,
+				9A7FB91822D5918700ECD6BA /* ZLPageControlHeader.swift in Sources */,
+				9A7FB91B22D5918E00ECD6BA /* ZLDepositTableViewController.swift in Sources */,
+				9A7FB90622D5915100ECD6BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9A7FB90922D5915100ECD6BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A7FB90A22D5915100ECD6BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A7FB90E22D5915200ECD6BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A7FB90F22D5915200ECD6BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A7FB91222D5915200ECD6BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A7FB91322D5915200ECD6BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A7FB91522D5915200ECD6BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomPageScrollViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhengelababy.CustomPageScrollViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A7FB91622D5915200ECD6BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomPageScrollViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhengelababy.CustomPageScrollViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A7FB8FD22D5915100ECD6BA /* Build configuration list for PBXProject "CustomPageScrollViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7FB91222D5915200ECD6BA /* Debug */,
+				9A7FB91322D5915200ECD6BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A7FB91422D5915200ECD6BA /* Build configuration list for PBXNativeTarget "CustomPageScrollViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7FB91522D5915200ECD6BA /* Debug */,
+				9A7FB91622D5915200ECD6BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A7FB8FA22D5915100ECD6BA /* Project object */;
+}
